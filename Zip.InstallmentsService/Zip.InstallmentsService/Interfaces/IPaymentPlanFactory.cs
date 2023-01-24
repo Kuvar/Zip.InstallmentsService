@@ -8,6 +8,5 @@ namespace Zip.InstallmentsService.Interfaces
         Task<ActionResult<PaymentPlan>> CreatePaymentPlan(decimal purchaseAmount, int installments, int frequency);
         Task<ActionResult<List<PaymentPlan>>> GetAllPaymentPlans();
         Task<ActionResult<PaymentPlan>> GetPaymentPlanById(string id);
-        int test();
     }
 }
